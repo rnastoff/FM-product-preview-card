@@ -1,0 +1,18 @@
+.card {
+  background: white;
+  border-radius: 0.8rem;
+  height: 28.2rem;
+  width: 37.5rem;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 625px) {
+  .card {
+    flex-direction: column;
+    height: 38.5rem;
+    width: 21.6rem;
+  }
+}
